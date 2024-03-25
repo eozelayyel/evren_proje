@@ -1,0 +1,40 @@
+.carts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3% 10% 10% 10%;
+    gap: 30px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 10px 12px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cart p {
+    margin: 0;
+    padding: 3px;
+}
+
+.add {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    gap: 80px;
+    right: 12%;
+}
+
+.cart img {
+    border-radius: 15px;
+    width: 90%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

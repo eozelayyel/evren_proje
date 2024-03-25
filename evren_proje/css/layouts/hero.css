@@ -1,0 +1,48 @@
+.heroimg img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.herotext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    top: 25%;
+    left: 15%;
+    color: white;
+}
+
+.herolorem p {
+    width: 70%;
+    font-size: 20px;
+}
+
+.herobtn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.herobtn p {
+    background-color: rgb(40, 73, 145);
+    padding: 1% 2%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.herotext h5 {
+    display: inline;
+    background-color: rgb(40, 73, 145);
+    padding: 1%;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.herobig {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}

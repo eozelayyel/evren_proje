@@ -1,0 +1,30 @@
+.repeat {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.top-line h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+
+}
+
+.line {
+    margin: 50px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: rgb(236, 173, 36);
+}
+
+.bottom-line p {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 10% 2% 10%;
+}

@@ -1,0 +1,51 @@
+.triangle {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 20%;
+    gap: 80px;
+}
+
+.ourcol {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 173, 36);
+    color: white;
+    border-radius: 5px;
+    padding: 1% 0px;
+    margin: 0px 5%;
+}
+
+#bmw, #audi, #mercedes, #porsche {
+    cursor: pointer;
+}  
+  
+.ourcol::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 99%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(236, 173, 36);
+    clip-path: polygon(50% 60%, 0 0, 100% 0);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.ourcol:hover {
+    background-color: rgb(228, 162, 41);
+    box-shadow: 0 0 15px rgb(209, 163, 13);
+    border-color: rgb(236, 173, 36);
+}
+
+.ourcol:hover::after {
+    visibility: visible;
+    opacity: 1;
+}

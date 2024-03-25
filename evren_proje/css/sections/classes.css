@@ -1,0 +1,31 @@
+.classleft {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    left: 10%;
+}
+
+.classleft h2 {
+    margin-top: 10%;
+}
+
+.classleft p {
+    position: relative;
+    display: flex;
+    text-align: left;
+    max-width: 70%;
+    margin-bottom: 20%;
+    font-size: 18px;
+}
+
+.classright img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    height: auto;
+    margin: 10% 10% 0 10%;
+    left: 10%;
+}

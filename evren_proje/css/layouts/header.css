@@ -1,0 +1,54 @@
+#header {
+    height: 80px;
+    background: transparent;
+}
+
+#header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .logo img {
+    display: block;
+    height: 60px;
+    width: auto;
+    margin-top: 8px;
+
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li {
+    position: relative;
+    padding: 6px 15px;
+}
+
+#navbar li a {
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#join {
+    background-color: rgb(235, 144, 24);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#join:hover {
+    background-color: rgb(228, 162, 41);
+    box-shadow: 0 0 15px rgb(209, 163, 13);
+    border-color: rgb(236, 173, 36);
+}
+
+.navbar-scrolled {
+    background-color: rgb(0, 0, 0) !important;
+    transition: background-color 0.3s;
+}
